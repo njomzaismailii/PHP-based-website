@@ -1,0 +1,68 @@
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  
+  
+  }
+  body{
+    background-color:black;
+  }
+ 
+ .text-1 h2{
+     color: wheat;
+     text-align: center;
+     text-decoration: underline;
+     padding-bottom: 20px;
+ }
+
+ 
+footer{
+    justify-content: center;
+}
+
+.image p {
+    color: wheat;
+    text-align: center;
+}
+
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px  rgb(148, 144, 144);
+}
+
+.text-2 h2{
+    color: wheat;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.text-2 p {
+    color: wheat;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

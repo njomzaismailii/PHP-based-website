@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+footer {
+    padding: 30px;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    max-width: 1200;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+
+.responsive .gallery {
+    border-radius: 8px;
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    box-shadow: 0 12px 12px rgb(97, 93, 93);
+}
+
+.responsive {
+    display: flex;
+    margin-left: 220px;
+}
+
+h4 {
+    color: wheat;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    color: wheat;
+}
+
+.text-1 {
+    color: #fff;
+    text-align: center;
+}

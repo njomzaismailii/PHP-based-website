@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-image: url(images/foter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mainPage{
+    background-color: white;
+    height: 50vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px lightgrey;
+    text-align: center;
+
+}
+
+.mainPage a{
+    color: grey;
+    margin-bottom: 1em;
+}
+
+.login{
+    color: slategrey;
+    font-size: 1.3em;
+}
+input{
+    display: block;
+    margin-bottom: 1em;
+    padding: 0.8em;
+}
+.buttonlogin{
+    margin: auto;
+    margin-top: 1em;
+    background: #fff;
+    padding: 10px 15px;
+    color: slategray;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc; 
+    margin-top: 1.2em;
+    transition: 0.4s;
+
+}
+
+.buttonLogin:hover {
+    background: #34495e;
+    color: #fff;
+}
+
+.mainPage div.errors{
+    background-color: yellow; 
+    padding-top:7px;
+    padding-bottom: 7px;
+    margin-top: 6px;
+}
